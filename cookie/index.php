@@ -45,9 +45,10 @@ include_once 'funtions.php';
                     ?>
                     <div class="post-preview col-lg-12">
                         <a href="<?php echo HOME_URL.'products.php?id='.$products['id']; ?>">
-                            <class="product_name">
+                            <h2 class="product_name">
                                 <?php echo $products['product_name'];?>
                                 <?php echo '<br>';?>
+                            </h2>
                         </a>
                     </div>
                     <?php
