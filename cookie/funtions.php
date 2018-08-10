@@ -5,7 +5,7 @@ function get_current_url() {
 }
 
 // Define constant
-define("HOME_URL", "http://localhost:8080/phptech/techmasterphp/techmasterphp/blog/");
+define("HOME_URL", "http://localhost:8080/php/cookie/");
 define("HOME_URL_ADMIN", "http://localhost:8080/phptech/techmasterphp/techmasterphp/blog/admin/");
 $home_dir_path = dirname(__FILE__);
 define("HOME_DIR_PATH", $home_dir_path);
